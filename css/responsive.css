@@ -1,0 +1,338 @@
+@media (max-width: 1125px){
+	/**********************************
+	 *   seccion seis presentaciones  *
+	 **********************************/
+	div.tab.presentaciones button:nth-child(2){		
+		top:0px;
+	}
+
+	div.tab.presentaciones button:nth-child(3){		
+		top:0px;
+	}
+
+	div.tab.presentaciones button:nth-child(4){		
+		top:0px;
+	}
+}
+
+
+@media (max-width: 1110px){
+	/******************************
+	 *      seccion uno Home      *
+	 ******************************/
+	.ui-box-slider > .ui-derecha{
+		display: none;
+	}
+
+	.ui-box-slider > .ui-izquierda {
+	    width: 99.99%;
+	    float: none;
+	    display: block;
+	    text-align: center;
+	    padding-right: 0px;
+	    padding-top: 0px;	   	 
+	    display: flex;
+	    display: -webkit-flex;
+	    align-items:center;
+	    justify-content:center;  
+	}	
+
+	/*****************************************
+	 *      seccion dos xelamec spot On      *
+	 *****************************************/
+	.ui-columna-items-beneficios {
+	    float: none;
+	    display: block;
+	}
+
+	.ui-box-beneficios-especificos-spot-on{
+		text-align: center;
+		padding: 20px;
+	}
+
+	.ui-columna-items-beneficios.uno,
+	.ui-columna-items-beneficios.dos,
+	.ui-columna-items-beneficios.tres{
+		width: 99.99%;
+		max-width: 713px;
+		display: inline-block;
+		vertical-align: top;		
+		padding: 20px 0;
+	}	
+
+	.ui-columna-items-beneficios.uno > .scrollme > div > .item-beneficio {	   
+	    padding-left: 100px;
+	    text-align: left;
+	}	
+
+	.ui-box-figure-beneficio.uno {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 87px;
+	    height: 87px;
+	}
+
+	.ui-spot-on{
+		width: 280px;
+		height: 280px;
+		padding-top: 65px;
+	}
+
+	.ui-columna-items-beneficios > div {
+	    margin-bottom: 55px;
+	}
+
+	.ui-columna-items-beneficios.uno > .scrollme > div > .item-beneficio {	    
+	    padding-left: 100px;	 
+	    padding-right: 0px;   
+	}
+
+	.item-beneficio.uno, .item-beneficio.tres {
+	    position: relative;
+	    left: 0px;
+	}
+
+	.item-beneficio.cinco, .item-beneficio.siete {
+	    position: relative;
+	    right: 0px; 
+	}
+
+	.ui-box-beneficios-especificos-spot-on{
+		padding: 20px 0px;
+	}	
+
+}
+
+@media (max-width: 996px){
+	/***************************
+	 *          header         *
+	 ***************************/
+	.ui-header{
+		padding: 15px 0 0 0;		
+	}
+
+	#menu-escritorio{
+		display: none;		
+	}
+
+	#menu-responsive{
+		display: none;
+	}
+
+	.ui-nav-xelamec > ul li {
+	    display: block;    
+	    margin-right: 0px;
+	    position: relative;
+	    background-color: #fff;
+	    border-bottom: 1px solid rgba(0,0,0,0.09);
+	}
+
+	.ui-nav-xelamec > ul li:after {
+	    display: none;
+	}
+
+	.ui-btn-responsive{
+		display: block!important;
+	}
+
+	.ui-header > .ui-izquierda {
+	    float: none;
+	    display: block;
+	    width: 100%;	 
+	    padding-bottom: 20px; 	   
+	}
+
+	.ui-header > .ui-derecha {
+	    float: none;
+	    display: block;
+	    width: 100%;
+	    margin-top: 0px;
+	}
+
+	.ui-logotipo-xelamec{
+		float: left;
+	}
+
+	.ui-btn-responsive{
+		margin-top: 30px;
+		float: right;
+	}
+	
+}
+
+@media (max-width: 840px){
+	/************************************
+	 *       modal presentaciones       *
+	 ************************************/
+	.modal-presentacion > .ui-box > .ui-izquierda {
+	    float: none;
+	    width: 99.99%;
+	    display: block;
+	    margin-bottom: 40px;
+	}
+
+	.modal-presentacion > .ui-box > .ui-derecha {
+	    float: none;
+	    width: 99.99%;
+	    display: block;
+	}
+
+	.ui-box-modal-figure-presentacion > figure {	    
+	    max-width: 450px;
+	    width: 100%;
+	}
+}
+
+@media (max-width: 700px){
+	/***********************************
+	 *     seccion cuatro parasitos    *
+	 ***********************************/
+	.ui-box-parasitos > .ui-izquierda {
+	    width: 99.99%;
+	    display: block;
+	    float: none;
+	    text-align: left;	    
+	}
+
+	.ui-box-parasitos > .ui-derecha {
+	    width: 99.99%;
+	    display: block;
+	    float: none;
+	    padding-left: 0px;
+	    padding-top: 20px;		    
+	}
+
+	.ui-box-item-parasito.uno {	   
+	    right: 0px;
+	}
+
+	.ui-box-item-parasito.dos {	    
+	    right: 0px;
+	}
+
+	.ui-box-item-parasito.tres {	   
+	    right: 0px;
+	}
+
+	.ui-box-item-parasito.cuatro {	   
+	    right: 0px;
+	}
+
+	.ui-box-item-parasito.cinco {	   
+	    right: 0px;
+	}
+
+	.ui-box-item-parasito.seis {	   
+	    right: 0px;
+	}
+
+	.ui-box-imagen-parasito > .ui-box > .ui-box-circulo{
+		display: none;
+	}
+
+	/******************************************
+	 *      seccion siete Distribuidores      *
+	 ******************************************/
+	.ui-box-distribuidores > .ui-izquierda {	   
+	    width:99.99%;
+	    float: none;
+	    display: block;
+	    margin-bottom: 20px;
+	}
+
+	.ui-box-distribuidores > .ui-derecha {	  
+	   width:99.99%;
+	   float: none;
+	   display: block;
+	   padding-left: 0px;
+	}
+
+	/******************************************
+	 *         seccion ocho Contactenos       *
+	 ******************************************/
+	.ui-box-contactenos > .ui-izquierda {
+	   display: block;
+	   float:none;
+	   width: 99.99%; 
+	   padding: 136px 0px 40px 0;
+	}
+
+	.ui-box-contactenos > .ui-derecha {
+	   display: none;
+	}
+
+	.ui-contactenos-info .ui-box-fila > .ui-box .ui-izquierda {
+	    float: none;
+	    width: 99.99%;
+	    margin-right: 0%;
+	    display: block;
+	    margin-bottom: 15px;
+	}
+
+	.ui-contactenos-info .ui-box-fila > .ui-box .ui-derecha {
+	    float: none;
+	    display: block;
+	    width: 99.99%;	 
+	    margin-left: 0%;   
+	}
+
+	/******************************************
+	 *            seccion nueve Footer        *
+	 ******************************************/
+	.ui-item-footer {
+	    width: 99.99%;
+	    float: none;
+	    display: block;
+	    padding: 15px 0px;	   
+	}
+
+	.ui-lista-footer {
+	    width: 100%;
+	    max-width: 100%;
+	}
+
+	/*****************************************
+	 *        seccion 03 como funciona       *
+	 *****************************************/
+	.ui-box-texto-funciona-uno {
+	    position: relative;
+	    top: 0px;
+	    right: 0px;   
+	}
+
+	.ui-box-texto-funciona-uno > .ui-box {	    
+	    display: none;
+	}
+
+	.ui-box-texto-funciona-dos > .ui-box {	    
+	    display: none;
+	}
+
+	.ui-box-texto-funciona-tres > .ui-box {	    
+	    display: none;
+	}
+
+	.ui-circulo-como-funciona {
+	    display: none;
+	}
+
+	.ui-box-como-funciona > .ui-box {
+	    display: inline-block;
+	    vertical-align: top;
+	    max-width: 440px;
+	    width: 100%;	    
+	    padding-top: 40px;	   
+	    position: relative;
+	}
+}
+
+@media (max-width: 564px){
+	.ui-box-texto-responsive{		
+		display: block;
+	}
+
+	.ui-box-slider > .ui-izquierda > .ui-box{
+		display: none;
+	}
+}

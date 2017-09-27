@@ -22,6 +22,7 @@ ul{
 
 .ui-centro-principal{
 	max-width: 1180px;
+	padding: 0 15px;
 	margin:auto;
 }
 
@@ -269,12 +270,12 @@ section.ui-section.ocho{
 }
 
 .ui-header > .ui-izquierda{
-	float: left;
+	float: left;	
 }
 
 .ui-header > .ui-derecha{
-	float: right;
-	padding-top: 18px;
+	float: right;		
+	margin-top: 30px;
 }
 
 .ui-logotipo-xelamec{	
@@ -294,6 +295,19 @@ section.ui-section.ocho{
 .ui-logotipo-xelamec > a figure img{
 	display: block;
 	width: 100%;
+}
+
+#menu-escritorio{
+	display: block;
+}
+
+#menu-responsive{
+	display: none;
+}
+
+.ui-nav-xelamec{
+	display: inline-block;
+	vertical-align: top;
 }
 
 .ui-nav-xelamec > ul li{
@@ -481,6 +495,31 @@ section.ui-section.ocho{
 	background-color: #FCBCC5;
 }
 
+.ui-btn-responsive{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 8px;
+	cursor: pointer;
+	display: none!important;
+}
+
+.ui-btn-responsive > .ui-box{
+	display: inline-block;
+	vertical-align: top;
+	width: 30px;		
+}
+
+.ui-btn-responsive > .ui-box span{
+	display: block;
+	height: 5px;
+	margin-bottom: 5px;
+	background-color: #8C9192;	
+}
+
+.ui-btn-responsive > .ui-box span:last-child{
+	margin-bottom: 0px;
+}
+
 /**************************************
  *          seccion 01 - slider       *
  **************************************/
@@ -491,6 +530,22 @@ section.ui-section.ocho{
 	width: 100%;
 	height: 100%;
 	display: none;
+}
+
+.ui-box-texto-responsive{
+	text-align: center;
+	display: none;
+}
+
+.ui-box-texto-responsive > figure{
+	display: inline-block;
+	vertical-align: top;
+	max-width: 513px;
+}
+
+.ui-box-texto-responsive > figure img{
+	width: 100%;
+	display: block;
 }
 
 .ui-box-slider{		
@@ -997,7 +1052,7 @@ section.ui-section.ocho{
 	display: inline-block;
 	vertical-align: top;
 	width: 350px;
-	min-height: 350px;	
+	height: 350px;	
 	border-radius: 50%;	
 	position: relative;
 	padding-top: 94px;
@@ -1142,13 +1197,17 @@ section.ui-section.ocho{
 .ui-box-figure-beneficio.uno{
 	position: absolute;
 	top:0;
-	right:0; 		
+	right:0;
+	width: 87px;
+	height: 87px; 		
 }
 
 .ui-box-figure-beneficio.tres{
 	position: absolute;
 	top:0;
-	left:0; 		
+	left:0; 	
+	width: 87px;
+	height: 87px;	
 }
 
 .animateme.beneficios{
@@ -1967,6 +2026,7 @@ section.ui-section.ocho{
 
 .ui-box-parasitos > .ui-izquierda{
 	width:49.99%;
+	display: block;
 	float: left;
 	text-align: right;
 }
@@ -1975,8 +2035,7 @@ section.ui-section.ocho{
 	width:49.99%;
 	float: right;
 	padding-left: 30px;
-	padding-top: 20px;
-	/*background-color: red;*/
+	padding-top: 20px;	
 }
 
 .ui-box-item-parasito{	
@@ -2187,6 +2246,7 @@ section.ui-section.ocho{
 .ui-box-items-efectividad{	
 	text-align: center;
 	margin-bottom: 60px;
+	display: none;
 }
 
 .ui-item-subtitulo-efectividad{
@@ -2251,26 +2311,55 @@ section.ui-section.ocho{
 	text-align: center;
 }
 
-.ui-cuadro-tridimencional > .ui-box{
-	width: 500px;
-	height: 223px;		
-	display: inline-block;
-	vertical-align: top;
-	position: relative; 
-	margin-bottom: 5px;
-	overflow: hidden;
+.ui-cuadro-tridimencional > .ui-box{	
+	margin-bottom: 5px;	
 }
 
-.ui-cuadro-tridimencional > .ui-box figure{
-	position: absolute;
-	top:0;
-	left:0;
-	width: 100%;
+.ui-cuadro-tridimencional > .ui-box figure{	
+	max-width: 600px;
+	display: inline-block;
+	vertical-align: top;
 }
 
 .ui-cuadro-tridimencional > .ui-box figure img{
 	display: block;
 	width: 100%;
+}
+
+.ui-box-texto-cuadro-rediseno{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.ui-box-texto-cuadro-rediseno > .ui-box{
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 10px;
+}
+
+.ui-box-texto-cuadro-rediseno > .ui-box span{
+	width: 12px;
+	height: 12px;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	top:5px;
+	left:-5px;
+}
+
+.ui-box-texto-cuadro-rediseno > .ui-box span.color-uno{	
+	background-color: #26C1C5;
+}
+
+.ui-box-texto-cuadro-rediseno > .ui-box i{
+	position: relative;
+	top:-5px;
+	left:-2px;
+	font-size: 10px;
+}
+
+.ui-box-texto-cuadro-rediseno > .ui-box span.color-dos{
+	background-color: #F8B753;
 }
 
 .ui-figure-cuadro-02{

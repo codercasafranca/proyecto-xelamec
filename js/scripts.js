@@ -34,7 +34,8 @@ $(document).ready(function(){
         // navigationTooltips: ['Home', 'Xelamet Spot On', '¿Como funciona?', 'page4', 'page5', 'page6', 'page7', 'page8'],
         showActiveTooltip: true,        
         // slidesNavigation: false,
-        // slidesNavPosition: 'top',  
+        // slidesNavPosition: 'top', 
+        responsiveWidth: 1100 
     });
 });
 
@@ -191,4 +192,16 @@ $(document).ready(function(){
     speed: 500,
     auto:true,
   });
+});
+
+$(document).ready(function(){
+    $( ".ui-btn-responsive" ).click(function() {
+      $( "#menu-responsive" ).toggle("slow");
+    });
+});
+
+$(document).ready(function(){
+    $( "#menu-responsive > ul li" ).click(function() {
+      $( "#menu-responsive" ).fadeOut("slow");
+    });
 });
