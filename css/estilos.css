@@ -215,27 +215,23 @@ section.ui-section.uno{
 
 section.ui-section.dos{	
 	padding: 160px 0;		
-	overflow: hidden;	
-	background-color: rgba(251,167,179,.3);
-	overflow: hidden; 
+	overflow: hidden;		
 }
 
 section.ui-section.tres{	
 	padding: 160px 0;			
-	background-color: rgba(72,181,163,.3);
 	overflow: hidden;
 }
 
 section.ui-section.cuatro{
 	padding: 160px 0;	
-	overflow: hidden;	
-	background-color: rgba(223,224,226,.4);
+	overflow: hidden;		
 }
 
 section.ui-section.cinco{
 	padding: 160px 0 100px 0;
 	overflow: hidden;		
-	background-color: rgba(58,184,192,.2);	
+	
 }
 
 section.ui-section.seis{
@@ -253,6 +249,30 @@ section.ui-section.siete{
 section.ui-section.ocho{	
 	background-color: rgba(248,182,186,.3);	
 	
+}
+
+#page2{
+	background-color: #FEE4E8;
+}
+
+#page3{
+	background-color: #C8E9E3;
+}
+
+#page4{
+	background-color: #F2F3F3;
+}
+
+#page5{
+	background-color: #D8F1F2;
+}
+
+#page8{
+	background-color: #FDE9EA;
+}
+
+#page9{
+	background-color: #000;
 }
 
 
@@ -496,6 +516,10 @@ section.ui-section.ocho{
 /*dots*/
 #fp-nav ul li:nth-child(8) a.active span{
 	background-color: #FCBCC5;
+}
+
+#fp-nav ul li:nth-child(9) a.active span{
+	background-color: #fff;
 }
 
 .ui-btn-responsive{
@@ -3909,7 +3933,11 @@ textarea{
 }
 
 .ui-texto-agrovet{
-	margin-top: 15px;
+	margin-top: 30px;	
+}
+
+.ui-texto-agrovet p{
+	font-size: 15px;
 }
 
 .ui-texto-agrovet p i{
@@ -3918,3 +3946,8 @@ textarea{
 	top:-4px;
 	left:-1px;
 }
+
+.ui-dato-extra-footer{
+	font-family: 'HelveticaNeueLT Std Cn';
+}
+

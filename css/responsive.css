@@ -15,6 +15,47 @@
 	}
 }
 
+@media (max-width: 1024px){
+	/******************************************
+	 *      seccion siete Distribuidores      *
+	 ******************************************/
+	.ui-box-distribuidores > .ui-izquierda {	   
+	    width:99.99%;
+	    float: none;
+	    display: block;
+	    margin-bottom: 20px;
+	}
+
+	.ui-box-distribuidores > .ui-derecha {	  
+	   width:99.99%;
+	   float: none;
+	   display: block;
+	   padding-left: 0px;
+	}
+
+	/******************************************
+	 *         seccion ocho Contactenos       *
+	 ******************************************/
+	.ui-box-contactenos > .ui-izquierda {
+	   display: block;
+	   float:none;
+	   width: 99.99%; 
+	   padding: 136px 15px 40px;
+	}
+
+	.ui-box-contactenos > .ui-derecha {
+	   display: block;
+	   float:none;
+	   width: 99.99%;
+	   position: relative; 	   
+	   height: 600px;
+	}
+
+	.ui-section.ocho .ui-centro-principal{
+		padding: 0px;
+	}
+}
+
 
 @media (max-width: 1110px){
 	/******************************
@@ -159,23 +200,7 @@
 		float: right;
 	}
 
-	/******************************************
-	 *         seccion ocho Contactenos       *
-	 ******************************************/
-	.ui-box-contactenos > .ui-izquierda {
-	   display: block;
-	   float:none;
-	   width: 99.99%; 
-	   padding: 136px 0px 40px 0;
-	}
-
-	.ui-box-contactenos > .ui-derecha {
-	   display: block;
-	   float:none;
-	   width: 99.99%;
-	   position: relative; 	   
-	   height: 600px;
-	}
+	
 	
 }
 
@@ -209,6 +234,32 @@
 	.ui-box-modal-figure-presentacion.cinco > figure {
     	max-width: 500px;
 	    width: 100%;
+	}
+}
+
+@media (max-width: 768px){
+	
+	/******************************************
+	 *         seccion ocho Contactenos       *
+	 ******************************************/
+	
+	.ui-box-contactenos > .ui-derecha {
+	   display: none;
+	}
+
+	.ui-contactenos-info .ui-box-fila > .ui-box .ui-izquierda {
+	    float: none;
+	    width: 99.99%;
+	    margin-right: 0%;
+	    display: block;
+	    margin-bottom: 15px;
+	}
+
+	.ui-contactenos-info .ui-box-fila > .ui-box .ui-derecha {
+	    float: none;
+	    display: block;
+	    width: 99.99%;	 
+	    margin-left: 0%;   
 	}
 }
 
@@ -257,53 +308,7 @@
 
 	.ui-box-imagen-parasito > .ui-box > .ui-box-circulo{
 		display: none;
-	}
-
-	/******************************************
-	 *      seccion siete Distribuidores      *
-	 ******************************************/
-	.ui-box-distribuidores > .ui-izquierda {	   
-	    width:99.99%;
-	    float: none;
-	    display: block;
-	    margin-bottom: 20px;
-	}
-
-	.ui-box-distribuidores > .ui-derecha {	  
-	   width:99.99%;
-	   float: none;
-	   display: block;
-	   padding-left: 0px;
-	}
-
-	/******************************************
-	 *         seccion ocho Contactenos       *
-	 ******************************************/
-	.ui-box-contactenos > .ui-izquierda {
-	   display: block;
-	   float:none;
-	   width: 99.99%; 
-	   padding: 136px 0px 40px 0;
-	}
-
-	.ui-box-contactenos > .ui-derecha {
-	   display: none;
-	}
-
-	.ui-contactenos-info .ui-box-fila > .ui-box .ui-izquierda {
-	    float: none;
-	    width: 99.99%;
-	    margin-right: 0%;
-	    display: block;
-	    margin-bottom: 15px;
-	}
-
-	.ui-contactenos-info .ui-box-fila > .ui-box .ui-derecha {
-	    float: none;
-	    display: block;
-	    width: 99.99%;	 
-	    margin-left: 0%;   
-	}
+	}	
 
 	/******************************************
 	 *            seccion nueve Footer        *
@@ -318,6 +323,17 @@
 	.ui-lista-footer {
 	    width: 100%;
 	    max-width: 100%;
+	}
+
+	.ui-box-logotipo-footer{		
+		width: 100%;
+		max-width: 100%; 
+		text-align: center;
+	}
+
+	.ui-box-logotipo-footer figure{
+		display: inline-block;
+		vertical-align: top;
 	}
 
 	/*****************************************
