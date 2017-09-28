@@ -215,43 +215,46 @@ section.ui-section.uno{
 
 section.ui-section.dos{	
 	padding: 160px 0;		
-	overflow: hidden;
-	/*min-height: 600px; */
-	background-color: rgba(251,167,179,.3); 
+	overflow: hidden;	
+	background-color: rgba(251,167,179,.3);
+	overflow: hidden; 
 }
 
 section.ui-section.tres{	
 	padding: 160px 0;			
 	background-color: rgba(72,181,163,.3);
+	overflow: hidden;
 }
 
 section.ui-section.cuatro{
 	padding: 160px 0;	
-	overflow: hidden;
-	/*background-color: rgba(254,181,40,.3);*/
+	overflow: hidden;	
 	background-color: rgba(223,224,226,.4);
 }
 
 section.ui-section.cinco{
-	padding: 160px 0 100px 0;		
+	padding: 160px 0 100px 0;
+	overflow: hidden;		
 	background-color: rgba(58,184,192,.2);	
 }
 
 section.ui-section.seis{
 	padding: 160px 0;	
-	/*background-color: rgba(0,0,0,0.08);*/
+	overflow: hidden;
+	
 }
 
 section.ui-section.siete{
-	padding: 160px 0;		
-	/*background-color: rgba(180,126,99,.2);*/
+	padding: 160px 0;	
+	overflow: hidden;	
+
 }
 
 section.ui-section.ocho{	
 	background-color: rgba(248,182,186,.3);	
-	/*background-color: rgba(72,181,163,.2);
-	background-color: rgba(191,151,127,.2);*/
+	
 }
+
 
 /****************************
  *          header          *
@@ -644,6 +647,9 @@ section.ui-section.ocho{
 	z-index: 4;
 	background-color: rgba(253,187,72,.9);
 	text-align: center;
+
+	-webkit-animation: animateCirculoUno 3s infinite linear; 
+    animation: animateCirculoUno 3s infinite linear;
 }
 
 .ui-box-circulo-mediano-x2{
@@ -656,6 +662,29 @@ section.ui-section.ocho{
 	z-index: 4;
 	background-color: rgba(251,167,179,.9);
 	text-align: center;
+
+	-webkit-animation: animateCirculoUno 3s infinite linear; 
+    animation: animateCirculoUno 3s infinite linear;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes animateCirculoUno {
+    0%   {
+    	opacity:0;
+    }     
+    100%{
+    	opacity:1;
+    }
+}
+
+/* Standard syntax */
+@keyframes animateCirculoUno {
+    0%   {
+    	opacity:0;
+    }     
+    100%{
+    	opacity:1;
+    }
 }
 
 .ui-box-circulo-pequeno{
@@ -668,6 +697,8 @@ section.ui-section.ocho{
 	z-index: 4;
 	background-color: rgba(180,126,99,.9);	
 	text-align: center;
+	-webkit-animation: animateCirculoUno 3s infinite linear; 
+    animation: animateCirculoUno 3s infinite linear;
 }
 
 .ui-box-circulo-pequeno-x2{
@@ -680,6 +711,8 @@ section.ui-section.ocho{
 	z-index: 4;
 	background-color: rgba(72,181,163,.7);	
 	text-align: center;
+	-webkit-animation: animateCirculoUno 3s infinite linear; 
+    animation: animateCirculoUno 3s infinite linear;
 }
 
 .ui-circulo-corazon{
@@ -1252,7 +1285,7 @@ section.ui-section.ocho{
 }
 
 .ui-box-como-funciona{
-	text-align: center;
+	text-align: center;	
 }
 
 .ui-box-como-funciona > .ui-box{
@@ -2003,6 +2036,35 @@ section.ui-section.ocho{
 	-ms-transform:rotate(-25deg);
 	-o-transform:rotate(-25deg);
 	transform:rotate(-25deg);
+}
+
+.ui-box-texto-responsive-funciona{
+	margin-top: 40px;
+	display: none;
+}
+
+.ui-item-funciona-responsive  div{	
+	display: inline-block;
+	vertical-align: top;
+	width: 140px;
+	margin: 10px;
+	border-radius: 50%;
+	height: 140px;	
+	text-align: center;	
+}
+
+.ui-item-funciona-responsive div span{
+	display: inline-block;
+	width: 140px;
+	padding-top:60px;
+	font-size: 16px;	
+	height: 140px;
+	color: #fff;
+	background-color: #A9DCD4;	
+	vertical-align: top;
+	text-transform: uppercase;
+	
+	border-radius: 50%;
 }
 
 /**************************************
@@ -3748,6 +3810,13 @@ textarea{
 	font-family: 'Helvetica LT Std Cond Light';
 }
 
+.ui-h2-footer i{
+	position: relative;
+	top:-5px;
+	left:-2px;
+	font-size: 10px;
+}
+
 .ui-box-datos-footer{
 	margin-bottom: 20px;
 }
@@ -3807,6 +3876,7 @@ textarea{
 	display: inline-block;
 	vertical-align: top;
 	margin-right: 5px;
+	margin-bottom: 8px;
 }
 
 .box-social-footer li a{
@@ -3836,4 +3906,15 @@ textarea{
 .ui-box-logotipo-footer figure img{
 	width: 100%;
 	display: block;
+}
+
+.ui-texto-agrovet{
+	margin-top: 15px;
+}
+
+.ui-texto-agrovet p i{
+	position: relative;
+	font-size: 9px;
+	top:-4px;
+	left:-1px;
 }
