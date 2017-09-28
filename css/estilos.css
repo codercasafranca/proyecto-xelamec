@@ -246,8 +246,7 @@ section.ui-section.siete{
 
 }
 
-section.ui-section.ocho{	
-	background-color: rgba(248,182,186,.3);	
+section.ui-section.ocho{		
 	
 }
 
@@ -3890,6 +3889,13 @@ textarea{
 	position: absolute;
 	top:9px;
 	left:0;
+}
+
+.ui-lista-footer li a > span i{
+	position: relative;
+	top:-3px;
+	left:-3px;
+	font-size: 10px;
 }
 
 .box-social-footer{

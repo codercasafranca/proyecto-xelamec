@@ -205,3 +205,14 @@ $(document).ready(function(){
       $( "#menu-responsive" ).fadeOut("slow");
     });
 });
+
+/**************************
+ *     navScroll Footer   *
+ **************************/
+$('.ui-lista-footer li a').click(function(e){
+    e.preventDefault();
+        enlace  = $(this).attr('href');
+        $('html, body').animate({
+            scrollTop: $(enlace).offset().top+1
+    }, 1000);
+});
