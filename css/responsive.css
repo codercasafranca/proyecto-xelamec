@@ -145,6 +145,15 @@
 
 }
 
+@media (max-width: 1024px){
+	/******************************************
+	 *             seccion footer             *
+	 ******************************************/
+	.ui-section-footer {	    
+	    padding: 100px 0 0 0;	    
+	}
+}
+
 @media (max-width: 996px){
 	/***************************
 	 *          header         *
@@ -266,7 +275,7 @@
 	 *             seccion footer             *
 	 ******************************************/
 	.ui-section-footer {	    
-	    padding: 60px 0 60px 0;	    
+	    padding: 60px 0 20px 0;	    
 	}
 }
 
