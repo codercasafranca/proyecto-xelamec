@@ -150,7 +150,31 @@
 	 *             seccion footer             *
 	 ******************************************/
 	.ui-section-footer {	    
-	    padding: 6px 0 0 0;	    
+	    padding: 80px 0 0 0;	    
+	}
+
+	.ui-item-footer {
+	    width: 33.33%;
+	    float: left;
+	    padding: 0 10px;	   
+	}
+
+	.ui-lista-footer {
+	    max-width: 100%;
+	    width: 100%;
+	}
+
+	.ui-box-items-footer > article:nth-child(4){
+		margin-top: 60px;
+		width: 99.99%;		
+	}
+
+	.ui-texto-agrovet.ui-1024{		
+		display: block;		
+	}
+
+	.ui-texto-agrovet.ui-768{
+		display: none;
 	}
 }
 
@@ -276,6 +300,29 @@
 	 ******************************************/
 	.ui-section-footer {	    
 	    padding: 60px 0 20px 0;	    
+	}
+
+	.ui-item-footer {
+	    width: 49.99%;
+	    float: left;
+	    padding: 0 10px;
+	}
+
+	.ui-box-items-footer > article:nth-child(1){
+		margin-bottom: 20px;		
+	}
+
+	.ui-box-items-footer > article:nth-child(2){
+		margin-bottom: 20px;		
+	}
+
+}
+
+@media (max-width: 711px){
+	.ui-texto-agrovet.ui-1024{		
+		padding-top: 0px;
+		width: 99.99%;
+		text-align: center;
 	}
 }
 
@@ -457,5 +504,12 @@
 
 	.ui-box-slider > .ui-izquierda > .ui-box{
 		display: none;
+	}
+}
+
+@media (max-width: 414px){
+	.ui-texto-agrovet.ui-1024 {
+	    float: right;
+	    padding-top: 0px;
 	}
 }

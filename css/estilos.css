@@ -3960,3 +3960,17 @@ textarea{
 #page9 .fp-tableCell{
 	vertical-align: top!important;
 }
+
+.ui-box-logotipo-footer{
+	float: left;
+}
+
+.ui-texto-agrovet.ui-1024{
+	float: right;
+	display: none;
+	padding-top: 120px;
+}
+
+.ui-texto-agrovet.ui-768{
+	display: block;
+}
