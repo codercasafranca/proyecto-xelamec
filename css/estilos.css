@@ -3817,7 +3817,7 @@ textarea{
 .ui-section-footer{
 	background-color: #000;
 	color: #fff;
-	padding: 60px 0;
+	padding: 90px 0 60px 0;
 	font-size: 13px;
 }
 
@@ -3957,3 +3957,6 @@ textarea{
 	font-family: 'HelveticaNeueLT Std Cn';
 }
 
+#page9 .fp-tableCell{
+	vertical-align: top!important;
+}
