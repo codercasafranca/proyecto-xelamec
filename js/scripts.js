@@ -23,8 +23,8 @@ function openPresentacion(evt, cityPresentacion) {
 $(document).ready(function(){
     $('#wrapper').fullpage({
         menu: '#menu',
-        scrollBar: true,  
-        autoScrolling: true,           
+        scrollBar: true,
+        autoScrolling: true,
         scrollingSpeed: 600,
         easingcss3: 'cubic-bezier(0.77, 0, 0.175, 1)',
         lockAnchors: true,
@@ -32,10 +32,10 @@ $(document).ready(function(){
         navigation: true,
         navigationPosition: 'right',
         // navigationTooltips: ['Home', 'Xelamet Spot On', '¿Como funciona?', 'page4', 'page5', 'page6', 'page7', 'page8'],
-        showActiveTooltip: true,        
+        showActiveTooltip: true,
         // slidesNavigation: false,
-        // slidesNavPosition: 'top', 
-        responsiveWidth: 1100 
+        // slidesNavPosition: 'top',
+        responsiveWidth: 1070
     });
 });
 
@@ -53,98 +53,98 @@ $('.ui-nav-xelamec ul li a').click(function(e){
 /*******************************
  *           navEfects         *
  *******************************/
-$(document).ready(function() { 
+$(document).ready(function() {
     $(window).scroll(function(){
         var windowHeight = $(window).scrollTop();
         var contenido2 = $("#page2").offset();
         contenido2 = contenido2.top;
- 
+
         if(windowHeight >= contenido2  ){
-          $('.ui-nav-xelamec').addClass("menu-page-dos"); 
+          $('.ui-nav-xelamec').addClass("menu-page-dos");
             }else{
           $('.ui-nav-xelamec').removeClass("menu-page-dos");
         }
     });
 });
 
-$(document).ready(function() { 
+$(document).ready(function() {
     $(window).scroll(function(){
         var windowHeight = $(window).scrollTop();
         var contenido2 = $("#page3").offset();
         contenido2 = contenido2.top;
- 
+
         if(windowHeight >= contenido2  ){
-          $('.ui-nav-xelamec').addClass("menu-page-tres"); 
+          $('.ui-nav-xelamec').addClass("menu-page-tres");
             }else{
           $('.ui-nav-xelamec').removeClass("menu-page-tres");
         }
     });
 });
 
-$(document).ready(function() { 
+$(document).ready(function() {
     $(window).scroll(function(){
         var windowHeight = $(window).scrollTop();
         var contenido2 = $("#page4").offset();
         contenido2 = contenido2.top;
- 
+
         if(windowHeight >= contenido2  ){
-          $('.ui-nav-xelamec').addClass("menu-page-cuatro"); 
+          $('.ui-nav-xelamec').addClass("menu-page-cuatro");
             }else{
           $('.ui-nav-xelamec').removeClass("menu-page-cuatro");
         }
     });
 });
 
-$(document).ready(function() { 
+$(document).ready(function() {
     $(window).scroll(function(){
         var windowHeight = $(window).scrollTop();
         var contenido2 = $("#page5").offset();
         contenido2 = contenido2.top;
- 
+
         if(windowHeight >= contenido2  ){
-          $('.ui-nav-xelamec').addClass("menu-page-cinco"); 
+          $('.ui-nav-xelamec').addClass("menu-page-cinco");
             }else{
           $('.ui-nav-xelamec').removeClass("menu-page-cinco");
         }
     });
 });
 
-$(document).ready(function() { 
+$(document).ready(function() {
     $(window).scroll(function(){
         var windowHeight = $(window).scrollTop();
         var contenido2 = $("#page6").offset();
         contenido2 = contenido2.top;
- 
+
         if(windowHeight >= contenido2  ){
-          $('.ui-nav-xelamec').addClass("menu-page-seis"); 
+          $('.ui-nav-xelamec').addClass("menu-page-seis");
             }else{
           $('.ui-nav-xelamec').removeClass("menu-page-seis");
         }
     });
 });
 
-$(document).ready(function() { 
+$(document).ready(function() {
     $(window).scroll(function(){
         var windowHeight = $(window).scrollTop();
         var contenido2 = $("#page7").offset();
         contenido2 = contenido2.top;
- 
+
         if(windowHeight >= contenido2  ){
-          $('.ui-nav-xelamec').addClass("menu-page-siete"); 
+          $('.ui-nav-xelamec').addClass("menu-page-siete");
             }else{
           $('.ui-nav-xelamec').removeClass("menu-page-siete");
         }
     });
 });
 
-$(document).ready(function() { 
+$(document).ready(function() {
     $(window).scroll(function(){
         var windowHeight = $(window).scrollTop();
         var contenido2 = $("#page8").offset();
         contenido2 = contenido2.top;
- 
+
         if(windowHeight >= contenido2  ){
-          $('.ui-nav-xelamec').addClass("menu-page-ocho"); 
+          $('.ui-nav-xelamec').addClass("menu-page-ocho");
             }else{
           $('.ui-nav-xelamec').removeClass("menu-page-ocho");
         }
@@ -152,7 +152,7 @@ $(document).ready(function() {
 });
 
 $(window).load(function(){
-      $(".demo").twentytwenty({default_offset_pct: 0.7});  
+      $(".demo").twentytwenty({default_offset_pct: 0.7});
 });
 
 // seccion contacto
@@ -216,3 +216,45 @@ $('.ui-lista-footer li a').click(function(e){
             scrollTop: $(enlace).offset().top+1
     }, 1000);
 });
+
+$(window).load(function() {
+    $('.flexslider-banner').flexslider();
+});
+
+
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
