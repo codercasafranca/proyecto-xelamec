@@ -258,3 +258,33 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
+
+$(document).ready(function() {
+    setTimeout(function() {
+        $(".ui-box-forma-uno-banner > .ui-box").fadeIn(1500);
+    },1000);
+});
+
+$(document).ready(function() {
+    setTimeout(function() {
+        $(".ui-box-forma-dos-banner > .ui-box").fadeIn(1500);
+    },2000);
+});
+
+$(document).ready(function() {
+    setTimeout(function() {
+        $(".ui-box-forma-tres-banner > .ui-box").fadeIn(1500);
+    },3000);
+});
+
+$(document).ready(function() {
+    setTimeout(function() {
+        $(".ui-box-forma-cuatro-banner > .ui-box").fadeIn(1500);
+    },4000);
+});
+
+$(document).ready(function() {
+    setTimeout(function() {
+        $(".flexslider-banner").fadeIn(1500);
+    },1000);
+});

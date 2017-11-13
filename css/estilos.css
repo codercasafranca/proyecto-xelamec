@@ -221,7 +221,7 @@ section.ui-section.dos{
 }
 
 section.ui-section.tres{
-	padding: 160px 0;
+	padding: 160px 0 100px;
 	overflow: hidden;
 }
 
@@ -257,7 +257,7 @@ section.ui-section.ocho{
 }
 
 #page3{
-	background-color: #C8E9E3;
+	background-color: #BAEAE4;
 }
 
 #page4{
@@ -265,7 +265,7 @@ section.ui-section.ocho{
 }
 
 #page5{
-	background-color: #D8F1F2;
+	background-color: #CEF1F2;
 }
 
 #page8{
@@ -625,6 +625,42 @@ section.ui-section.ocho{
 	z-index: 5;
 }
 
+.ui-box-forma-uno-banner{
+	width: 90px;
+	height: 90px;
+}
+
+.ui-box-forma-uno-banner > .ui-box{
+	display: none;
+}
+
+.ui-box-forma-dos-banner{
+	width: 80px;
+	height: 80px;
+}
+
+.ui-box-forma-dos-banner > .ui-box{
+	display: none;
+}
+
+.ui-box-forma-tres-banner{
+	width: 70px;
+	height: 70px;
+}
+
+.ui-box-forma-tres-banner > .ui-box{
+	display: none;
+}
+
+.ui-box-forma-cuatro-banner{
+	width: 60px;
+	height: 60px;
+}
+
+.ui-box-forma-cuatro-banner > .ui-box{
+	display: none;
+}
+
 .ui-box-circulito-banner.uno{
 	width: 90px;
 	height: 90px;
@@ -637,41 +673,6 @@ section.ui-section.ocho{
 	position: relative;
 	left: 20px;
 	top: 37px;
-
-	-webkit-animation: circuloBanner01 3s 1s linear; /* Safari 4.0 - 8.0 */
-  animation: circuloBanner01 3s 1s linear;
-}
-
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes circuloBanner01 {
-    0%   {
-			opacity: 0;
-		}
-    25%  {
-			opacity: 0.4;
-		}
-    75%  {
-			opacity: 0.8;
-		}
-    100% {
-			opacity: 1;
-		}
-}
-
-/* Standard syntax */
-@keyframes circuloBanner01 {
-	0%   {
-		opacity: 0;
-	}
-	25%  {
-		opacity: 0.4;
-	}
-	75%  {
-		opacity: 0.8;
-	}
-	100% {
-		opacity: 1;
-	}
 }
 
 .ui-box-circulito-banner.uno figure{
@@ -694,41 +695,6 @@ section.ui-section.ocho{
 	justify-content: center;
 	position: relative;
 	top: 50px;
-
-	-webkit-animation: circuloBanner02 3s 3s linear; /* Safari 4.0 - 8.0 */
-  animation: circuloBanner02 3s 3s linear;
-}
-
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes circuloBanner02 {
-    0%   {
-			opacity: 0;
-		}
-    25%  {
-			opacity: 0.4;
-		}
-    75%  {
-			opacity: 0.8;
-		}
-    100% {
-			opacity: 1;
-		}
-}
-
-/* Standard syntax */
-@keyframes circuloBanner02 {
-	0%   {
-		opacity: 0;
-	}
-	25%  {
-		opacity: 0.4;
-	}
-	75%  {
-		opacity: 0.8;
-	}
-	100% {
-		opacity: 1;
-	}
 }
 
 .ui-box-circulito-banner.dos figure{
@@ -752,41 +718,6 @@ section.ui-section.ocho{
 	position: relative;
 	top: 70px;
   left: 17px;
-
-	-webkit-animation: circuloBanner03 3s 5s linear; /* Safari 4.0 - 8.0 */
-  animation: circuloBanner03 3s 5s linear;
-}
-
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes circuloBanner03 {
-    0%   {
-			opacity: 0;
-		}
-    25%  {
-			opacity: 0.4;
-		}
-    75%  {
-			opacity: 0.8;
-		}
-    100% {
-			opacity: 1;
-		}
-}
-
-/* Standard syntax */
-@keyframes circuloBanner03 {
-	0%   {
-		opacity: 0;
-	}
-	25%  {
-		opacity: 0.4;
-	}
-	75%  {
-		opacity: 0.8;
-	}
-	100% {
-		opacity: 1;
-	}
 }
 
 .ui-box-circulito-banner.tres figure{
@@ -810,41 +741,6 @@ section.ui-section.ocho{
 	position: relative;
 	top: 85px;
   left: 68px;
-
-	-webkit-animation: circuloBanner04 3s 7s linear; /* Safari 4.0 - 8.0 */
-  animation: circuloBanner04 3s 7s linear;
-}
-
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes circuloBanner04 {
-    0%   {
-			opacity: 0;
-		}
-    25%  {
-			opacity: 0.4;
-		}
-    75%  {
-			opacity: 0.8;
-		}
-    100% {
-			opacity: 1;
-		}
-}
-
-/* Standard syntax */
-@keyframes circuloBanner04 {
-	0%   {
-		opacity: 0;
-	}
-	25%  {
-		opacity: 0.4;
-	}
-	75%  {
-		opacity: 0.8;
-	}
-	100% {
-		opacity: 1;
-	}
 }
 
 .ui-box-circulito-banner.cuatro figure{
@@ -866,6 +762,10 @@ section.ui-section.ocho{
 	align-items: center;
 }
 
+.ui-box-perro{
+	display: none;
+}
+
 .ui-box-mascotas-banner > .ui-box{
 	width: 420px;
 	height: 420px;
@@ -877,7 +777,7 @@ section.ui-section.ocho{
 	top:0;
 	left:0;
 	width: 100%;
-	height: 100%;
+	height: 470px;
 	text-align: center;
 }
 
@@ -898,6 +798,7 @@ section.ui-section.ocho{
 	left:0;
 	width: 100%;
 	height: 100%;
+	display: none;
 }
 
 .slides.banner-mascotas{
@@ -997,21 +898,12 @@ section.ui-section.ocho{
     }
 }
 
-.section.fp-section.fp-table.active.fp-completely .ui-box-por-dentro h2{
+.section.fp-section.fp-table.active.fp-completely .ui-box-por-dentro div{
 	display: inline-block;
 	vertical-align: top;
-	font-size: 66px;
-	line-height: 66px;
-	letter-spacing: 3px;
-	background-color: #12BCBF;
-	color: #fff;
-	padding: 10px 20px;
-	font-family: 'appleberry';
-	position: relative;
-	font-weight: normal;
-
 	-webkit-animation: pordentro 4s linear; /* Safari 4.0 - 8.0 */
-    animation: pordentro 4s linear;
+  animation: pordentro 4s linear;
+	position: relative;
 }
 
 /* Safari 4.0 - 8.0 */
@@ -1032,6 +924,17 @@ section.ui-section.ocho{
     100% {
 		right: 0px;
     }
+}
+
+.section.fp-section.fp-table.active.fp-completely .ui-box-por-dentro h2{
+	font-size: 66px;
+	line-height: 66px;
+	letter-spacing: 3px;
+	background-color: #12BCBF;
+	color: #fff;
+	padding: 10px 20px;
+	font-family: 'appleberry';
+	font-weight: normal;
 }
 
 .ui-box-por-dentro h2 span{
@@ -1160,6 +1063,10 @@ section.ui-section.ocho{
 
 .ui-columna-items-beneficios.dos{
 	width: 33.33%;
+}
+
+.ui-columna-items-beneficios.dos.block{
+	display: none;
 }
 
 .ui-columna-items-beneficios.tres{
@@ -1421,7 +1328,7 @@ section.ui-section.ocho{
  **************************************/
 .ui-header-como-funciona{
 	text-align: center;
-	margin-bottom: 100px;
+	margin-bottom: 20px;
 }
 
 .ui-header-como-funciona > .ui-box{
@@ -1449,8 +1356,24 @@ section.ui-section.ocho{
 	font-size: 11px;
 }
 
+.ui-box-figura-animada{
+	text-align: center;
+}
+
+.ui-box-figura-animada > figure{
+	max-width: 500px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.ui-box-figura-animada > figure img{
+	display: block;
+	width: 100%;
+}
+
 .ui-box-como-funciona{
 	text-align: center;
+	display: none;
 }
 
 .ui-box-como-funciona > .ui-box{
@@ -1461,6 +1384,10 @@ section.ui-section.ocho{
 	padding-top: 40px;
 	/*background-color: red;*/
 	position: relative;
+}
+
+.ui-box-como-funciona > .ui-box > .ui-box-figure.block{
+	display: none;
 }
 
 .ui-box-como-funciona > .ui-box > .ui-box-figure > figure{
@@ -2318,12 +2245,63 @@ section.ui-section.ocho{
 }
 
 .ui-box-circulo-parasito{
-	border:2px dashed rgba(254,181,40,.7);
-	padding: 2px;
-	border-radius:50%;
 	position: absolute;
 	top:-10px;
 	right:0;
+}
+
+.ui-box-item-parasito:hover .ui-box-circulo-parasito > .ui-box-borde{
+	-webkit-animation: circuloParasito 4s infinite linear; /* Safari 4.0 - 8.0 */
+  animation: circuloParasito 4s infinite linear;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes circuloParasito {
+    from {
+			-webkit-transform:rotate(0deg);
+			-moz-transform:rotate(0deg);
+			-ms-transform:rotate(0deg);
+			-o-transform:rotate(0deg);
+			transform:rotate(0deg);
+		}
+    to {
+			-webkit-transform:rotate(360deg);
+			-moz-transform:rotate(360deg);
+			-ms-transform:rotate(360deg);
+			-o-transform:rotate(360deg);
+			transform:rotate(360deg);
+		}
+}
+
+/* Standard syntax */
+@keyframes circuloParasito {
+	from {
+		-webkit-transform:rotate(0deg);
+		-moz-transform:rotate(0deg);
+		-ms-transform:rotate(0deg);
+		-o-transform:rotate(0deg);
+		transform:rotate(0deg);
+	}
+	to {
+		-webkit-transform:rotate(360deg);
+		-moz-transform:rotate(360deg);
+		-ms-transform:rotate(360deg);
+		-o-transform:rotate(360deg);
+		transform:rotate(360deg);
+	}
+}
+
+.ui-box-borde{
+	border:2px dashed #FAC764;
+	padding: 2px;
+	border-radius:50%;
+}
+
+.ui-box-circulo-item-unidad{
+	width: 78px;
+	height: 78px;
+	border-radius: 50%;
+	background-color: #FAC764;
 }
 
 .ui-box-circulo-parasito > .ui-box{
@@ -2362,8 +2340,15 @@ section.ui-section.ocho{
 
 .ui-box-circulo-parasito figure{
 	max-width: 65px;
+	position: absolute;
+	top:25px;
+	left:25px;
 	display: inline-block;
 	vertical-align: top;
+}
+
+.ui-box-circulo-parasito.uno figure{
+	top:33px;
 }
 
 .ui-box-circulo-parasito figure img{
@@ -2462,12 +2447,38 @@ section.ui-section.ocho{
     right: 4px;
 }
 
+.ui-box-forma-velocidad{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.ui-box-forma-velocidad > figure{
+	max-width: 160px;
+	display: inline-block;
+	position: relative;
+	bottom: 5px;
+	left: 20px;
+	vertical-align: middle;
+}
+
+.ui-box-forma-velocidad > figure img{
+	display: block;
+	width: 100%;
+}
+
+.ui-box-forma-velocidad > .ui-h2-efectividad{
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+	padding-left: 20px;
+}
+
 .ui-h2-efectividad{
 	line-height: 50px;
-    font-size: 48px;
-    margin-bottom: 15px;
-    color:#FEB528;
-    font-family: 'Helvetica LT Std Cond';
+  font-size: 48px;
+  margin-bottom: 15px;
+  color:#FEB528;
+  font-family: 'Helvetica LT Std Cond';
 }
 
 .ui-box-items-efectividad{
@@ -2538,12 +2549,16 @@ section.ui-section.ocho{
 	text-align: center;
 }
 
+.ui-cuadro-tridimencional.block{
+	display: none;
+}
+
 .ui-cuadro-tridimencional > .ui-box{
 	margin-bottom: 5px;
 }
 
 .ui-cuadro-tridimencional > .ui-box figure{
-	max-width: 600px;
+	max-width: 500px;
 	display: inline-block;
 	vertical-align: top;
 }
@@ -3582,6 +3597,8 @@ section.ui-section.ocho{
 
 .mySlides > .ui-izquierda > figure{
 	max-width: 450px;
+	display: inline-block;
+	vertical-align: top;
 }
 
 .mySlides > .ui-izquierda > figure img{
@@ -3671,9 +3688,10 @@ section.ui-section.ocho{
   position: absolute;
   top: 55%;
   width: auto;
-  padding: 16px;
+  padding: 14px;
   margin-top: -50px;
   color: white;
+	background-color: #8C9192;
   font-weight: bold;
   font-size: 20px;
   transition: 0.6s ease;
@@ -3684,8 +3702,13 @@ section.ui-section.ocho{
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
+  left: -20px;
   border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  right: -20px;
+  border-radius: 0 3px 3px 0;
 }
 
 /* On hover, add a black background color with a little bit see-through */
