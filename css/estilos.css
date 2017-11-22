@@ -215,7 +215,7 @@ section.ui-section.uno{
 }
 
 section.ui-section.dos{
-	padding: 160px 0;
+	padding: 160px 0 140px;
 	overflow-x: scroll;
 	overflow: hidden;
 }
@@ -630,13 +630,18 @@ section.ui-section.ocho{
 	height: 90px;
 }
 
-.ui-box-forma-uno-banner > .ui-box{
+.slide.efecto-final li.flex-active-slide .ui-box-forma-uno-banner.uno-b > .ui-box{
 	display: none;
+	background: red;
 }
 
 .ui-box-forma-dos-banner{
 	width: 80px;
 	height: 80px;
+}
+
+.ui-box-forma-dos-banner > .ui-box{
+	display: none;
 }
 
 .ui-box-forma-dos-banner > .ui-box{
@@ -659,6 +664,10 @@ section.ui-section.ocho{
 
 .ui-box-forma-cuatro-banner > .ui-box{
 	display: none;
+}
+
+.slides.efecto-final{
+	background: red;
 }
 
 .ui-box-circulito-banner.uno{
@@ -1055,6 +1064,16 @@ section.ui-section.ocho{
 
 .ui-columna-items-beneficios > div:last-child{
 	margin-bottom: 0px;
+}
+
+.spot-posicion-dos{
+	position: relative;
+	bottom: 24px;
+}
+
+.spot-posicion-tres{
+	position: relative;
+	bottom: 25px;
 }
 
 .ui-columna-items-beneficios.uno{
@@ -2208,12 +2227,13 @@ section.ui-section.ocho{
 
 .ui-box-item-parasito.uno {
 	position: relative;
-	right: -30px;
+	right: -11px;
 }
 
 .ui-box-item-parasito.dos {
 	position: relative;
 	right: 30px;
+	bottom: 5px;
 }
 
 .ui-box-item-parasito.tres {
@@ -2224,16 +2244,19 @@ section.ui-section.ocho{
 .ui-box-item-parasito.cuatro {
 	position: relative;
 	right: 50px;
+	bottom: 4px;
 }
 
 .ui-box-item-parasito.cinco {
 	position: relative;
 	right: 30px;
+	bottom: 7px;
 }
 
 .ui-box-item-parasito.seis {
 	position: relative;
-	right: -30px;
+	right: -23px;
+  bottom: 17px;
 }
 
 .ui-box-item-parasito p{
@@ -3659,6 +3682,11 @@ section.ui-section.ocho{
 .ui-header-modal-presentacion{
 	text-align: right;
 	margin-bottom: 34px;
+	min-height: 49px;
+}
+
+.ui-header-modal-presentacion > figure{
+	display: none;
 }
 
 .ui-box-lista-modal-presentacion{

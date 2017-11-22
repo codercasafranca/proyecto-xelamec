@@ -261,30 +261,54 @@ function showSlides(n) {
 
 $(document).ready(function() {
     setTimeout(function() {
-        $(".ui-box-forma-uno-banner > .ui-box").fadeIn(1500);
+        $(".ui-box-forma-uno-banner.uno-a > .ui-box").fadeIn(1500);
     },1000);
 });
 
 $(document).ready(function() {
     setTimeout(function() {
-        $(".ui-box-forma-dos-banner > .ui-box").fadeIn(1500);
+        $(".ui-box-forma-uno-banner.uno-b > .ui-box").fadeIn();
+    },100);
+});
+
+$(document).ready(function() {
+    setTimeout(function() {
+        $(".ui-box-forma-dos-banner.dos-a > .ui-box").fadeIn(1500);
     },2000);
 });
 
 $(document).ready(function() {
     setTimeout(function() {
-        $(".ui-box-forma-tres-banner > .ui-box").fadeIn(1500);
+        $(".ui-box-forma-dos-banner.dos-b > .ui-box").fadeIn(1500);
+    },2000);
+});
+
+$(document).ready(function() {
+    setTimeout(function() {
+        $(".ui-box-forma-tres-banner.tres-a > .ui-box").fadeIn(1500);
     },3000);
 });
 
 $(document).ready(function() {
     setTimeout(function() {
-        $(".ui-box-forma-cuatro-banner > .ui-box").fadeIn(1500);
+        $(".ui-box-forma-tres-banner.tres-b > .ui-box").fadeIn(1500);
+    },3000);
+});
+
+$(document).ready(function() {
+    setTimeout(function() {
+        $(".ui-box-forma-cuatro-banner.cuatro-a > .ui-box").fadeIn(1500);
     },4000);
 });
 
 $(document).ready(function() {
     setTimeout(function() {
-        $(".flexslider-banner").fadeIn(1500);
+        $(".ui-box-forma-cuatro-banner.cuatro-b > .ui-box").fadeIn(1500);
+    },4000);
+});
+
+$(document).ready(function() {
+    setTimeout(function() {
+        $(".flexslider-banner").fadeIn();
     },1000);
 });
