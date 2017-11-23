@@ -623,6 +623,7 @@ section.ui-section.ocho{
 	height: 350px;
 	position: relative;
 	z-index: 5;
+	display: none;
 }
 
 .ui-box-forma-uno-banner{
@@ -630,22 +631,9 @@ section.ui-section.ocho{
 	height: 90px;
 }
 
-.slide.efecto-final li.flex-active-slide .ui-box-forma-uno-banner.uno-b > .ui-box{
-	display: none;
-	background: red;
-}
-
 .ui-box-forma-dos-banner{
 	width: 80px;
 	height: 80px;
-}
-
-.ui-box-forma-dos-banner > .ui-box{
-	display: none;
-}
-
-.ui-box-forma-dos-banner > .ui-box{
-	display: none;
 }
 
 .ui-box-forma-tres-banner{
@@ -653,21 +641,77 @@ section.ui-section.ocho{
 	height: 70px;
 }
 
-.ui-box-forma-tres-banner > .ui-box{
-	display: none;
-}
-
 .ui-box-forma-cuatro-banner{
 	width: 60px;
 	height: 60px;
 }
 
-.ui-box-forma-cuatro-banner > .ui-box{
-	display: none;
+.flexslider-circulos .slides li.flex-active-slide .ui-box-forma-uno-banner .ui-box{
+	-webkit-animation: efectoCirculouno 1s; /* Safari 4.0 - 8.0 */
+  animation: efectoCirculouno 1s;
 }
 
-.slides.efecto-final{
-	background: red;
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes efectoCirculouno {
+    0%   {opacity: 0;}
+    100% {opacity: 100;}
+}
+
+/* Standard syntax */
+@keyframes efectoCirculouno {
+    0%   {opacity: 0;}
+    100% {opacity: 100;}
+}
+
+.flexslider-circulos .slides li.flex-active-slide .ui-box-forma-dos-banner .ui-box{
+	-webkit-animation: efectoCirculodos 3s; /* Safari 4.0 - 8.0 */
+  animation: efectoCirculodos 3s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes efectoCirculodos {
+    0%   {opacity: 0;}
+    100% {opacity: 100;}
+}
+
+/* Standard syntax */
+@keyframes efectoCirculodos {
+    0%   {opacity: 0;}
+    100% {opacity: 100;}
+}
+
+.flexslider-circulos .slides li.flex-active-slide .ui-box-forma-tres-banner .ui-box{
+	-webkit-animation: efectoCirculotres 6s; /* Safari 4.0 - 8.0 */
+  animation: efectoCirculotres 6s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes efectoCirculotres {
+    0%   {opacity: 0;}
+    100% {opacity: 100;}
+}
+
+/* Standard syntax */
+@keyframes efectoCirculotres {
+    0%   {opacity: 0;}
+    100% {opacity: 100;}
+}
+
+.flexslider-circulos .slides li.flex-active-slide .ui-box-forma-cuatro-banner .ui-box{
+	-webkit-animation: efectoCirculotres 8s; /* Safari 4.0 - 8.0 */
+  animation: efectoCirculotres 8s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes efectoCirculocuatro {
+    0%   {opacity: 0;}
+    100% {opacity: 100;}
+}
+
+/* Standard syntax */
+@keyframes efectoCirculocuatro {
+    0%   {opacity: 0;}
+    100% {opacity: 100;}
 }
 
 .ui-box-circulito-banner.uno{
