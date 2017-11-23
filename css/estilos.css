@@ -1226,12 +1226,6 @@ section.ui-section.ocho{
 	padding-top: 94px;
 	overflow: hidden;
 	background-color: rgba(251,167,179,0.3);
-
-	-webkit-box-shadow: 0 0 0 3px inset red;
-	-moz-box-shadow: 0 0 0 3px inset red;
-	-ms-box-shadow: 0 0 0 3px inset red;
-	-o-box-shadow: 0 0 0 3px inset red;
-	box-shadow: 0 0 0 3px inset red;
 }
 
 .ui-spot-on:after{
@@ -3730,7 +3724,7 @@ section.ui-section.ocho{
 }
 
 .ui-header-modal-presentacion > figure{
-	display: none;
+	display: block;
 }
 
 .ui-box-lista-modal-presentacion{

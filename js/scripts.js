@@ -35,7 +35,7 @@ $(document).ready(function(){
         showActiveTooltip: true,
         // slidesNavigation: false,
         // slidesNavPosition: 'top',
-        responsiveWidth: 1070
+        responsiveWidth: 1080
     });
 });
 
