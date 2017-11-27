@@ -542,7 +542,33 @@
 }
 
 @media (max-width: 650px){
+	/*xelamet spot on*/
+	section.ui-section.dos {
+    padding: 100px 0 0px;
+	}
+	.ui-box-header-spot-on h2{
+		font-size: 38px;
+	}
+
+	.ui-header-beneficios-spot-on{
+		margin-bottom: 30px;
+	}
+
 	/*efectividad*/
+	section.ui-section.cinco {
+    padding: 60px 0 100px;
+	}
+
+	.ui-box-forma-velocidad > .ui-h2-efectividad{
+		font-size: 38px;
+		text-align: center;
+		margin-bottom: 0px;
+	}
+
+	.ui-box-forma-velocidad{
+		margin-bottom: 30px;
+	}
+
 	.ui-cuadro-tridimencional{
 		display: none;
 	}
@@ -553,6 +579,15 @@
 	}
 
 	/*como funciona*/
+	section.ui-section.tres {
+    padding: 100px 0 100px;
+	}
+
+	.ui-h2-como-funciona{
+		font-size: 38px;
+		margin-bottom: 30px;
+	}
+
 	.ui-header-como-funciona{
 		margin-bottom: 0px;
 	}
@@ -565,6 +600,57 @@
 		display: block;
 		margin-top: 40px;
 	}
+
+	/*parasitos*/
+	section.ui-section.cuatro {
+    padding: 100px 0;
+	}
+
+	.ui-header-parasitos{
+		margin-bottom: 30px;
+	}
+
+	.ui-header-h2-parasitos{
+		font-size: 38px;
+		margin-bottom: 0px;
+	}
+
+	/*presentaciones*/
+	section.ui-section.seis {
+    padding: 100px 0;
+	}
+
+	.ui-h2-header-presentaciones{
+		margin-bottom: 30px;
+		font-size: 38px;
+		text-align: center;
+	}
+
+	/*distribuidores*/
+	section.ui-section.siete {
+    padding: 100px 0;
+	}
+
+	.ui-h2-distribuidores{
+		font-size: 38px;
+		text-align: center;
+	}
+
+	.ui-box-fila-distribuidores.h2{
+		margin-bottom: 30px;
+	}
+
+	/*contactenos*/
+	.ui-box-contactenos > .ui-izquierda {
+    padding: 80px 15px 40px;
+	}
+
+	.ui-h2-contactenos {
+    font-size: 38px;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
 }
 
 @media (max-width: 564px){

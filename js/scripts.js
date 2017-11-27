@@ -19,26 +19,6 @@ function openPresentacion(evt, cityPresentacion) {
     evt.currentTarget.className += " active";
 }
 
-//fullPage
-$(document).ready(function(){
-    $('#wrapper').fullpage({
-        menu: '#menu',
-        scrollBar: true,
-        autoScrolling: true,
-        scrollingSpeed: 600,
-        easingcss3: 'cubic-bezier(0.77, 0, 0.175, 1)',
-        lockAnchors: true,
-        // anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7', 'page8'],
-        navigation: true,
-        navigationPosition: 'right',
-        // navigationTooltips: ['Home', 'Xelamet Spot On', '¿Como funciona?', 'page4', 'page5', 'page6', 'page7', 'page8'],
-        showActiveTooltip: true,
-        // slidesNavigation: false,
-        // slidesNavPosition: 'top',
-        responsiveWidth: 1080
-    });
-});
-
 /*******************
  *     navScroll   *
  *******************/
@@ -263,62 +243,20 @@ function showSlides(n) {
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
 
-// $(document).ready(function() {
-//     setTimeout(function() {
-//         $(".ui-box-forma-uno-banner.uno-a > .ui-box").fadeIn(1500);
-//     },1000);
-// });
-//
-// $(document).ready(function() {
-//     setTimeout(function() {
-//         $(".ui-box-forma-uno-banner.uno-b > .ui-box").fadeIn(5000);
-//     },3000);
-// });
-//
-// $(document).ready(function() {
-//     setTimeout(function() {
-//         $(".ui-box-forma-dos-banner.dos-a > .ui-box").fadeIn(1500);
-//     },2000);
-// });
-//
-// $(document).ready(function() {
-//     setTimeout(function() {
-//         $(".ui-box-forma-dos-banner.dos-b > .ui-box").fadeIn(1500);
-//     },2000);
-// });
-//
-// $(document).ready(function() {
-//     setTimeout(function() {
-//         $(".ui-box-forma-tres-banner.tres-a > .ui-box").fadeIn(1500);
-//     },3000);
-// });
-//
-// $(document).ready(function() {
-//     setTimeout(function() {
-//         $(".ui-box-forma-tres-banner.tres-b > .ui-box").fadeIn(1500);
-//     },3000);
-// });
-//
-// $(document).ready(function() {
-//     setTimeout(function() {
-//         $(".ui-box-forma-cuatro-banner.cuatro-a > .ui-box").fadeIn(1500);
-//     },4000);
-// });
-//
-// $(document).ready(function() {
-//     setTimeout(function() {
-//         $(".ui-box-forma-cuatro-banner.cuatro-b > .ui-box").fadeIn(1500);
-//     },4000);
-// });
-
 $(document).ready(function() {
     setTimeout(function() {
         $(".flexslider-banner").fadeIn();
-    },1500);
+    },100);
 });
 
 $(document).ready(function() {
     setTimeout(function() {
         $(".ui-box-items-icons-banner > .ui-box").fadeIn();
-    },1500);
+    },100);
+});
+
+$(document).ready(function() {
+    setTimeout(function() {
+        $(".ui-loading-xelamec").fadeOut();
+    },3000);
 });
