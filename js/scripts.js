@@ -26,7 +26,7 @@ $('.ui-nav-xelamec ul li a').click(function(e){
       e.preventDefault();
         enlace  = $(this).attr('href');
         $('html, body').animate({
-            scrollTop: $(enlace).offset().top+1
+            scrollTop: $(enlace).offset().top-111
         }, 1000);
 });
 
@@ -37,7 +37,7 @@ $(document).ready(function() {
     $(window).scroll(function(){
         var windowHeight = $(window).scrollTop();
         var contenido2 = $("#page2").offset();
-        contenido2 = contenido2.top;
+        contenido2 = contenido2.top-111;
 
         if(windowHeight >= contenido2  ){
           $('.ui-nav-xelamec').addClass("menu-page-dos");
@@ -51,7 +51,7 @@ $(document).ready(function() {
     $(window).scroll(function(){
         var windowHeight = $(window).scrollTop();
         var contenido2 = $("#page3").offset();
-        contenido2 = contenido2.top;
+        contenido2 = contenido2.top-111;
 
         if(windowHeight >= contenido2  ){
           $('.ui-nav-xelamec').addClass("menu-page-tres");
@@ -65,7 +65,7 @@ $(document).ready(function() {
     $(window).scroll(function(){
         var windowHeight = $(window).scrollTop();
         var contenido2 = $("#page4").offset();
-        contenido2 = contenido2.top;
+        contenido2 = contenido2.top-111;
 
         if(windowHeight >= contenido2  ){
           $('.ui-nav-xelamec').addClass("menu-page-cuatro");
@@ -79,7 +79,7 @@ $(document).ready(function() {
     $(window).scroll(function(){
         var windowHeight = $(window).scrollTop();
         var contenido2 = $("#page5").offset();
-        contenido2 = contenido2.top;
+        contenido2 = contenido2.top-111;
 
         if(windowHeight >= contenido2  ){
           $('.ui-nav-xelamec').addClass("menu-page-cinco");
@@ -93,7 +93,7 @@ $(document).ready(function() {
     $(window).scroll(function(){
         var windowHeight = $(window).scrollTop();
         var contenido2 = $("#page6").offset();
-        contenido2 = contenido2.top;
+        contenido2 = contenido2.top-111;
 
         if(windowHeight >= contenido2  ){
           $('.ui-nav-xelamec').addClass("menu-page-seis");
@@ -107,7 +107,7 @@ $(document).ready(function() {
     $(window).scroll(function(){
         var windowHeight = $(window).scrollTop();
         var contenido2 = $("#page7").offset();
-        contenido2 = contenido2.top;
+        contenido2 = contenido2.top-111;
 
         if(windowHeight >= contenido2  ){
           $('.ui-nav-xelamec').addClass("menu-page-siete");
@@ -121,7 +121,7 @@ $(document).ready(function() {
     $(window).scroll(function(){
         var windowHeight = $(window).scrollTop();
         var contenido2 = $("#page8").offset();
-        contenido2 = contenido2.top;
+        contenido2 = contenido2.top-111;
 
         if(windowHeight >= contenido2  ){
           $('.ui-nav-xelamec').addClass("menu-page-ocho");
@@ -193,7 +193,7 @@ $('.ui-lista-footer li a').click(function(e){
     e.preventDefault();
         enlace  = $(this).attr('href');
         $('html, body').animate({
-            scrollTop: $(enlace).offset().top+1
+            scrollTop: $(enlace).offset().top-111
     }, 1000);
 });
 

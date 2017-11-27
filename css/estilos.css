@@ -215,41 +215,42 @@ section.ui-section.uno{
 }
 
 section.ui-section.dos{
-	padding: 160px 0 140px;
+	padding: 80px 0;
 	overflow-x: scroll;
 	overflow: hidden;
 }
 
 section.ui-section.tres{
-	padding: 160px 0 100px;
+	padding: 80px 0;
 	overflow: hidden;
 }
 
 section.ui-section.cuatro{
-	padding: 160px 0;
+	padding: 80px 0;
 	overflow: hidden;
 }
 
 section.ui-section.cinco{
-	padding: 160px 0 100px 0;
+	padding: 80px 0;
 	overflow: hidden;
 
 }
 
 section.ui-section.seis{
-	padding: 160px 0;
+	padding: 80px 0;
 	overflow: hidden;
 
 }
 
 section.ui-section.siete{
-	padding: 160px 0;
+	padding: 80px 0;
 	overflow: hidden;
 
 }
 
 section.ui-section.ocho{
-
+	padding: 80px 0;
+	overflow: hidden;
 }
 
 #page2{
@@ -2635,8 +2636,7 @@ section.ui-section.ocho{
 	max-width: 160px;
 	display: inline-block;
 	position: relative;
-	bottom: 5px;
-	left: 20px;
+	bottom: 5px;	
 	vertical-align: middle;
 }
 
@@ -3740,7 +3740,7 @@ section.ui-section.ocho{
   background-color: #fefefe;
   margin: auto;
   padding: 0;
-  /*width: 90%;*/
+  width: 89%;
   max-width: 900px;
 }
 
@@ -4047,7 +4047,7 @@ img.hover-shadow {
 .ui-box-contactenos > .ui-izquierda{
 	float: left;
 	width:49.99%;
-	padding: 136px 40px 40px 0;
+	padding: 40px 40px 40px 0;
 
 }
 
