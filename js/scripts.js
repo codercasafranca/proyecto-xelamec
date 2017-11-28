@@ -20,6 +20,137 @@ function openPresentacion(evt, cityPresentacion) {
 }
 
 /*******************
+ *     vertical dots   *
+ *******************/
+$('.ui-btn-vertical-dots li a').click(function(e){
+      e.preventDefault();
+        enlace  = $(this).attr('href');
+        $('html, body').animate({
+            scrollTop: $(enlace).offset().top-111
+        }, 1000);
+});
+
+// vertical dots colores
+$(document).ready(function() {
+    $(window).scroll(function(){
+        var windowHeight = $(window).scrollTop();
+        var contenido2 = $("#page2").offset();
+        contenido2 = contenido2.top-111;
+
+        if(windowHeight >= contenido2  ){
+          $('.ui-btn-vertical-dots').addClass("vertical-dots-dos");
+            }else{
+          $('.ui-btn-vertical-dots').removeClass("vertical-dots-dos");
+        }
+    });
+});
+
+// vertical dots colores
+$(document).ready(function() {
+    $(window).scroll(function(){
+        var windowHeight = $(window).scrollTop();
+        var contenido2 = $("#page3").offset();
+        contenido2 = contenido2.top-111;
+
+        if(windowHeight >= contenido2  ){
+          $('.ui-btn-vertical-dots').addClass("vertical-dots-tres");
+            }else{
+          $('.ui-btn-vertical-dots').removeClass("vertical-dots-tres");
+        }
+    });
+});
+
+// vertical dots colores
+$(document).ready(function() {
+    $(window).scroll(function(){
+        var windowHeight = $(window).scrollTop();
+        var contenido2 = $("#page4").offset();
+        contenido2 = contenido2.top-111;
+
+        if(windowHeight >= contenido2  ){
+          $('.ui-btn-vertical-dots').addClass("vertical-dots-cuatro");
+            }else{
+          $('.ui-btn-vertical-dots').removeClass("vertical-dots-cuatro");
+        }
+    });
+});
+
+// vertical dots colores
+$(document).ready(function() {
+    $(window).scroll(function(){
+        var windowHeight = $(window).scrollTop();
+        var contenido2 = $("#page5").offset();
+        contenido2 = contenido2.top-111;
+
+        if(windowHeight >= contenido2  ){
+          $('.ui-btn-vertical-dots').addClass("vertical-dots-cinco");
+            }else{
+          $('.ui-btn-vertical-dots').removeClass("vertical-dots-cinco");
+        }
+    });
+});
+
+// vertical dots colores
+$(document).ready(function() {
+    $(window).scroll(function(){
+        var windowHeight = $(window).scrollTop();
+        var contenido2 = $("#page6").offset();
+        contenido2 = contenido2.top-111;
+
+        if(windowHeight >= contenido2  ){
+          $('.ui-btn-vertical-dots').addClass("vertical-dots-seis");
+            }else{
+          $('.ui-btn-vertical-dots').removeClass("vertical-dots-seis");
+        }
+    });
+});
+
+// vertical dots colores
+$(document).ready(function() {
+    $(window).scroll(function(){
+        var windowHeight = $(window).scrollTop();
+        var contenido2 = $("#page7").offset();
+        contenido2 = contenido2.top-111;
+
+        if(windowHeight >= contenido2  ){
+          $('.ui-btn-vertical-dots').addClass("vertical-dots-siete");
+            }else{
+          $('.ui-btn-vertical-dots').removeClass("vertical-dots-siete");
+        }
+    });
+});
+
+// vertical dots colores
+$(document).ready(function() {
+    $(window).scroll(function(){
+        var windowHeight = $(window).scrollTop();
+        var contenido2 = $("#page8").offset();
+        contenido2 = contenido2.top-111;
+
+        if(windowHeight >= contenido2  ){
+          $('.ui-btn-vertical-dots').addClass("vertical-dots-ocho");
+            }else{
+          $('.ui-btn-vertical-dots').removeClass("vertical-dots-ocho");
+        }
+    });
+});
+
+// vertical dots colores
+$(document).ready(function() {
+    $(window).scroll(function(){
+        var windowHeight = $(window).scrollTop();
+        var contenido2 = $("#page9").offset();
+        contenido2 = contenido2.top-111;
+
+        if(windowHeight >= contenido2  ){
+          $('.ui-btn-vertical-dots').addClass("vertical-dots-nueve");
+            }else{
+          $('.ui-btn-vertical-dots').removeClass("vertical-dots-nueve");
+        }
+    });
+});
+
+/*******************
  *     navScroll   *
  *******************/
 $('.ui-nav-xelamec ul li a').click(function(e){

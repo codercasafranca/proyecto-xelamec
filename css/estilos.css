@@ -204,6 +204,474 @@ ul{
     font-style: normal;
 }
 
+/*****************************
+ *       vertical dots       *
+ *****************************/
+ .ui-vertical-dots{
+	 width: 40px;
+	 height: 100%;
+	 position: fixed;
+	 right: 0;
+	 top:0;
+	 display: flex;
+	 display: -webkit-flex;
+	 align-items: center;
+	 justify-content: center;
+	 z-index: 5;
+ }
+
+ .ui-btn-vertical-dots{
+	 margin: 0;
+	 list-style: none;
+ }
+
+ .ui-btn-vertical-dots li{
+	 display: block;
+	 margin: 15px 0;
+ }
+
+ .ui-btn-vertical-dots li a{
+	 	height: 4px;
+  	width: 4px;
+		display: block;
+		background: #b0bec5;
+		border-radius: 50%;
+
+		-webkit-transition: all .1s linear;
+		-moz-transition: all .1s linear;
+		-ms-transition: all .1s linear;
+		-o-transition: all .1s linear;
+		transition: all .1s linear;
+
+		-webkit-transform: scale(1,1);
+		-moz-transform: scale(1,1);
+		-ms-transform: scale(1,1);
+		-o-transform: scale(1,1);
+		transform: scale(1,1);
+ }
+
+ .ui-btn-vertical-dots li a:hover{
+	 -webkit-transform: scale(2.5,2.5)!important;
+	 -moz-transform: scale(2.5,2.5)!important;
+	 -ms-transform: scale(2.5,2.5)!important;
+	 -o-transform: scale(2.5,2.5)!important;
+	 transform: scale(2.5,2.5)!important;
+ }
+
+ .ui-vertical-dots-uno{
+	 height: 4px!important;
+	 width: 4px!important;
+	 -webkit-transform: scale(3,3)!important;
+	-moz-transform: scale(3,3)!important;
+	-ms-transform: scale(3,3)!important;
+	-o-transform: scale(3,3)!important;
+	transform: scale(3,3)!important;
+ }
+
+	/*vertical dots dos*/
+ .ui-btn-vertical-dots.vertical-dots-dos li:nth-child(2) a{
+		background: #FBA7B3;
+		-webkit-transform: scale(3,3);
+ 	 -moz-transform: scale(3,3);
+ 	 -ms-transform: scale(3,3);
+ 	 -o-transform: scale(3,3);
+ 	 transform: scale(3,3);
+ }
+
+ .ui-btn-vertical-dots.vertical-dots-dos li:nth-child(1) a{
+	 background: #b0bec5!important;
+	 -webkit-transform: scale(1,1)!important;
+	 -moz-transform: scale(1,1)!important;
+	 -ms-transform: scale(1,1)!important;
+	 -o-transform: scale(1,1)!important;
+	 transform: scale(1,1)!important;
+ }
+
+ /*vertical dots tres*/
+.ui-btn-vertical-dots.vertical-dots-tres li:nth-child(3) a{
+	 background: #48B5A3;
+	 -webkit-transform: scale(3,3);
+	-moz-transform: scale(3,3);
+	-ms-transform: scale(3,3);
+	-o-transform: scale(3,3);
+	transform: scale(3,3);
+}
+
+.ui-btn-vertical-dots.vertical-dots-tres li:nth-child(2) a{
+	background: #b0bec5;
+	-webkit-transform: scale(1,1);
+	-moz-transform: scale(1,1);
+	-ms-transform: scale(1,1);
+	-o-transform: scale(1,1);
+	transform: scale(1,1);
+}
+
+.ui-btn-vertical-dots.vertical-dots-tres li:nth-child(1) a{
+	background: #b0bec5;
+	-webkit-transform: scale(1,1);
+	-moz-transform: scale(1,1);
+	-ms-transform: scale(1,1);
+	-o-transform: scale(1,1);
+	transform: scale(1,1);
+}
+
+/*vertical dots cuatro*/
+.ui-btn-vertical-dots.vertical-dots-cuatro li:nth-child(4) a{
+	background: #FEB528;
+	-webkit-transform: scale(3,3);
+ -moz-transform: scale(3,3);
+ -ms-transform: scale(3,3);
+ -o-transform: scale(3,3);
+ transform: scale(3,3);
+}
+
+.ui-btn-vertical-dots.vertical-dots-cuatro li:nth-child(3) a{
+	background: #b0bec5;
+	-webkit-transform: scale(1,1);
+ -moz-transform: scale(1,1);
+ -ms-transform: scale(1,1);
+ -o-transform: scale(1,1);
+ transform: scale(1,1);
+}
+
+.ui-btn-vertical-dots.vertical-dots-cuatro li:nth-child(2) a{
+ background: #b0bec5;
+ -webkit-transform: scale(1,1);
+ -moz-transform: scale(1,1);
+ -ms-transform: scale(1,1);
+ -o-transform: scale(1,1);
+ transform: scale(1,1);
+}
+
+.ui-btn-vertical-dots.vertical-dots-cuatro li:nth-child(1) a{
+ background: #b0bec5;
+ -webkit-transform: scale(1,1);
+ -moz-transform: scale(1,1);
+ -ms-transform: scale(1,1);
+ -o-transform: scale(1,1);
+ transform: scale(1,1);
+}
+
+/*vertical dots cinco*/
+.ui-btn-vertical-dots.vertical-dots-cinco li:nth-child(5) a{
+	background: #3AB8C0;
+	-webkit-transform: scale(3,3);
+ -moz-transform: scale(3,3);
+ -ms-transform: scale(3,3);
+ -o-transform: scale(3,3);
+ transform: scale(3,3);
+}
+
+.ui-btn-vertical-dots.vertical-dots-cinco li:nth-child(4) a{
+	background: #b0bec5;
+	-webkit-transform: scale(1,1);
+ -moz-transform: scale(1,1);
+ -ms-transform: scale(1,1);
+ -o-transform: scale(1,1);
+ transform: scale(1,1);
+}
+
+.ui-btn-vertical-dots.vertical-dots-cinco li:nth-child(3) a{
+	background: #b0bec5;
+	-webkit-transform: scale(1,1);
+ -moz-transform: scale(1,1);
+ -ms-transform: scale(1,1);
+ -o-transform: scale(1,1);
+ transform: scale(1,1);
+}
+
+.ui-btn-vertical-dots.vertical-dots-cinco li:nth-child(2) a{
+ background: #b0bec5;
+ -webkit-transform: scale(1,1);
+ -moz-transform: scale(1,1);
+ -ms-transform: scale(1,1);
+ -o-transform: scale(1,1);
+ transform: scale(1,1);
+}
+
+.ui-btn-vertical-dots.vertical-dots-cinco li:nth-child(1) a{
+ background: #b0bec5;
+ -webkit-transform: scale(1,1);
+ -moz-transform: scale(1,1);
+ -ms-transform: scale(1,1);
+ -o-transform: scale(1,1);
+ transform: scale(1,1);
+}
+
+/*vertical dots seis*/
+.ui-btn-vertical-dots.vertical-dots-seis li:nth-child(6) a{
+	background: #43B4BD;
+	-webkit-transform: scale(3,3);
+ -moz-transform: scale(3,3);
+ -ms-transform: scale(3,3);
+ -o-transform: scale(3,3);
+ transform: scale(3,3);
+}
+
+.ui-btn-vertical-dots.vertical-dots-seis li:nth-child(5) a{
+	background: #b0bec5;
+	-webkit-transform: scale(1,1);
+ -moz-transform: scale(1,1);
+ -ms-transform: scale(1,1);
+ -o-transform: scale(1,1);
+ transform: scale(1,1);
+}
+
+.ui-btn-vertical-dots.vertical-dots-seis li:nth-child(4) a{
+	background: #b0bec5;
+	-webkit-transform: scale(1,1);
+ -moz-transform: scale(1,1);
+ -ms-transform: scale(1,1);
+ -o-transform: scale(1,1);
+ transform: scale(1,1);
+}
+
+.ui-btn-vertical-dots.vertical-dots-seis li:nth-child(3) a{
+	background: #b0bec5;
+	-webkit-transform: scale(1,1);
+ -moz-transform: scale(1,1);
+ -ms-transform: scale(1,1);
+ -o-transform: scale(1,1);
+ transform: scale(1,1);
+}
+
+.ui-btn-vertical-dots.vertical-dots-seis li:nth-child(2) a{
+ background: #b0bec5;
+ -webkit-transform: scale(1,1);
+ -moz-transform: scale(1,1);
+ -ms-transform: scale(1,1);
+ -o-transform: scale(1,1);
+ transform: scale(1,1);
+}
+
+.ui-btn-vertical-dots.vertical-dots-seis li:nth-child(1) a{
+ background: #b0bec5;
+ -webkit-transform: scale(1,1);
+ -moz-transform: scale(1,1);
+ -ms-transform: scale(1,1);
+ -o-transform: scale(1,1);
+ transform: scale(1,1);
+}
+
+/*vertical dots siete*/
+.ui-btn-vertical-dots.vertical-dots-siete li:nth-child(7) a{
+	background: #B47E63;
+	-webkit-transform: scale(3,3);
+ -moz-transform: scale(3,3);
+ -ms-transform: scale(3,3);
+ -o-transform: scale(3,3);
+ transform: scale(3,3);
+}
+
+.ui-btn-vertical-dots.vertical-dots-siete li:nth-child(6) a{
+	background: #b0bec5;
+	-webkit-transform: scale(1,1);
+ -moz-transform: scale(1,1);
+ -ms-transform: scale(1,1);
+ -o-transform: scale(1,1);
+ transform: scale(1,1);
+}
+
+.ui-btn-vertical-dots.vertical-dots-siete li:nth-child(5) a{
+	background: #b0bec5;
+	-webkit-transform: scale(1,1);
+ -moz-transform: scale(1,1);
+ -ms-transform: scale(1,1);
+ -o-transform: scale(1,1);
+ transform: scale(1,1);
+}
+
+.ui-btn-vertical-dots.vertical-dots-siete li:nth-child(4) a{
+	background: #b0bec5;
+	-webkit-transform: scale(1,1);
+ -moz-transform: scale(1,1);
+ -ms-transform: scale(1,1);
+ -o-transform: scale(1,1);
+ transform: scale(1,1);
+}
+
+.ui-btn-vertical-dots.vertical-dots-siete li:nth-child(3) a{
+	background: #b0bec5;
+	-webkit-transform: scale(1,1);
+ -moz-transform: scale(1,1);
+ -ms-transform: scale(1,1);
+ -o-transform: scale(1,1);
+ transform: scale(1,1);
+}
+
+.ui-btn-vertical-dots.vertical-dots-siete li:nth-child(2) a{
+ background: #b0bec5;
+ -webkit-transform: scale(1,1);
+ -moz-transform: scale(1,1);
+ -ms-transform: scale(1,1);
+ -o-transform: scale(1,1);
+ transform: scale(1,1);
+}
+
+.ui-btn-vertical-dots.vertical-dots-siete li:nth-child(1) a{
+ background: #b0bec5;
+ -webkit-transform: scale(1,1);
+ -moz-transform: scale(1,1);
+ -ms-transform: scale(1,1);
+ -o-transform: scale(1,1);
+ transform: scale(1,1);
+}
+
+/*vertical dots ocho*/
+.ui-btn-vertical-dots.vertical-dots-ocho li:nth-child(8) a{
+	background: #FCBCC5;
+	-webkit-transform: scale(3,3);
+ -moz-transform: scale(3,3);
+ -ms-transform: scale(3,3);
+ -o-transform: scale(3,3);
+ transform: scale(3,3);
+}
+
+.ui-btn-vertical-dots.vertical-dots-ocho li:nth-child(7) a{
+	background: #b0bec5;
+	-webkit-transform: scale(1,1);
+ -moz-transform: scale(1,1);
+ -ms-transform: scale(1,1);
+ -o-transform: scale(1,1);
+ transform: scale(1,1);
+}
+
+.ui-btn-vertical-dots.vertical-dots-ocho li:nth-child(6) a{
+	background: #b0bec5;
+	-webkit-transform: scale(1,1);
+ -moz-transform: scale(1,1);
+ -ms-transform: scale(1,1);
+ -o-transform: scale(1,1);
+ transform: scale(1,1);
+}
+
+.ui-btn-vertical-dots.vertical-dots-ocho li:nth-child(5) a{
+	background: #b0bec5;
+	-webkit-transform: scale(1,1);
+ -moz-transform: scale(1,1);
+ -ms-transform: scale(1,1);
+ -o-transform: scale(1,1);
+ transform: scale(1,1);
+}
+
+.ui-btn-vertical-dots.vertical-dots-ocho li:nth-child(4) a{
+	background: #b0bec5;
+	-webkit-transform: scale(1,1);
+ -moz-transform: scale(1,1);
+ -ms-transform: scale(1,1);
+ -o-transform: scale(1,1);
+ transform: scale(1,1);
+}
+
+.ui-btn-vertical-dots.vertical-dots-ocho li:nth-child(3) a{
+	background: #b0bec5;
+	-webkit-transform: scale(1,1);
+ -moz-transform: scale(1,1);
+ -ms-transform: scale(1,1);
+ -o-transform: scale(1,1);
+ transform: scale(1,1);
+}
+
+.ui-btn-vertical-dots.vertical-dots-ocho li:nth-child(2) a{
+ background: #b0bec5;
+ -webkit-transform: scale(1,1);
+ -moz-transform: scale(1,1);
+ -ms-transform: scale(1,1);
+ -o-transform: scale(1,1);
+ transform: scale(1,1);
+}
+
+.ui-btn-vertical-dots.vertical-dots-ocho li:nth-child(1) a{
+ background: #b0bec5;
+ -webkit-transform: scale(1,1);
+ -moz-transform: scale(1,1);
+ -ms-transform: scale(1,1);
+ -o-transform: scale(1,1);
+ transform: scale(1,1);
+}
+
+/*vertical dots nueve*/
+.ui-btn-vertical-dots.vertical-dots-nueve li:nth-child(9) a{
+	background: #fff!important;
+	-webkit-transform: scale(3,3)!important;
+ -moz-transform: scale(3,3)!important;
+ -ms-transform: scale(3,3)!important;
+ -o-transform: scale(3,3)!important;
+ transform: scale(3,3)!important;
+}
+
+.ui-btn-vertical-dots.vertical-dots-nueve li:nth-child(8) a{
+	background: #b0bec5;
+	-webkit-transform: scale(1,1);
+ -moz-transform: scale(1,1);
+ -ms-transform: scale(1,1);
+ -o-transform: scale(1,1);
+ transform: scale(1,1);
+}
+
+.ui-btn-vertical-dots.vertical-dots-nueve li:nth-child(7) a{
+	background: #b0bec5;
+	-webkit-transform: scale(1,1);
+ -moz-transform: scale(1,1);
+ -ms-transform: scale(1,1);
+ -o-transform: scale(1,1);
+ transform: scale(1,1);
+}
+
+.ui-btn-vertical-dots.vertical-dots-nueve li:nth-child(6) a{
+	background: #b0bec5;
+	-webkit-transform: scale(1,1);
+ -moz-transform: scale(1,1);
+ -ms-transform: scale(1,1);
+ -o-transform: scale(1,1);
+ transform: scale(1,1);
+}
+
+.ui-btn-vertical-dots.vertical-dots-nueve li:nth-child(5) a{
+	background: #b0bec5;
+	-webkit-transform: scale(1,1);
+ -moz-transform: scale(1,1);
+ -ms-transform: scale(1,1);
+ -o-transform: scale(1,1);
+ transform: scale(1,1);
+}
+
+.ui-btn-vertical-dots.vertical-dots-nueve li:nth-child(4) a{
+	background: #b0bec5;
+	-webkit-transform: scale(1,1);
+ -moz-transform: scale(1,1);
+ -ms-transform: scale(1,1);
+ -o-transform: scale(1,1);
+ transform: scale(1,1);
+}
+
+.ui-btn-vertical-dots.vertical-dots-nueve li:nth-child(3) a{
+	background: #b0bec5;
+	-webkit-transform: scale(1,1);
+ -moz-transform: scale(1,1);
+ -ms-transform: scale(1,1);
+ -o-transform: scale(1,1);
+ transform: scale(1,1);
+}
+
+.ui-btn-vertical-dots.vertical-dots-nueve li:nth-child(2) a{
+ background: #b0bec5;
+ -webkit-transform: scale(1,1);
+ -moz-transform: scale(1,1);
+ -ms-transform: scale(1,1);
+ -o-transform: scale(1,1);
+ transform: scale(1,1);
+}
+
+.ui-btn-vertical-dots.vertical-dots-uno li:nth-child(1) a{
+ background: #b0bec5;
+ -webkit-transform: scale(1,1);
+ -moz-transform: scale(1,1);
+ -ms-transform: scale(1,1);
+ -o-transform: scale(1,1);
+ transform: scale(1,1);
+}
+
 /*section.ui-section{
  	min-height: 800px;
 }*/
@@ -2636,7 +3104,7 @@ section.ui-section.ocho{
 	max-width: 160px;
 	display: inline-block;
 	position: relative;
-	bottom: 5px;	
+	bottom: 5px;
 	vertical-align: middle;
 }
 
@@ -4243,7 +4711,7 @@ textarea{
 .ui-section-footer{
 	background-color: #000;
 	color: #fff;
-	padding: 180px 0 60px 0;
+	padding: 180px 0 100px 0;
 	font-size: 13px;
 }
 
