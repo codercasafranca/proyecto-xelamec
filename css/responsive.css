@@ -1,3 +1,26 @@
+@media (max-width: 1205px){
+	/******************************
+	 *      seccion uno Home      *
+	 ******************************/
+	.ui-box-slider > .ui-derecha{
+		display: none;
+	}
+
+	.ui-box-slider > .ui-izquierda {
+			width: 99.99%;
+			float: none;
+			display: block;
+			text-align: center;
+			padding-right: 0px;
+			padding-top: 0px;
+			display: flex;
+			display: -webkit-flex;
+			align-items:center;
+			justify-content:center;
+	}
+
+}
+
 @media (max-width: 1125px){
 	/**********************************
 	 *   seccion seis presentaciones  *
@@ -60,25 +83,6 @@
 
 
 @media (max-width: 1110px){
-	/******************************
-	 *      seccion uno Home      *
-	 ******************************/
-	.ui-box-slider > .ui-derecha{
-		display: none;
-	}
-
-	.ui-box-slider > .ui-izquierda {
-	    width: 99.99%;
-	    float: none;
-	    display: block;
-	    text-align: center;
-	    padding-right: 0px;
-	    padding-top: 0px;
-	    display: flex;
-	    display: -webkit-flex;
-	    align-items:center;
-	    justify-content:center;
-	}
 
 	/*****************************************
 	 *      seccion dos xelamec spot On      *

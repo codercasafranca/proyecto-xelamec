@@ -386,8 +386,8 @@ $(document).ready(function() {
     },100);
 });
 
-$(document).ready(function() {
-    setTimeout(function() {
-        $(".ui-loading-xelamec").fadeOut();
-    },3000);
-});
+ $(document).ready(function() {
+     setTimeout(function() {
+         $(".ui-loading-xelamec").fadeOut();
+     },5000);
+ });

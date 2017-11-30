@@ -1191,14 +1191,14 @@ section.ui-section.ocho{
 	width: 49.99%;
 	float: right;
 	text-align: center;
-	/*background: orange;*/
-	min-height: 517px;
+	height: 517px;
+	overflow: hidden;
 }
 
 .ui-box-items-icons-banner{
 	float: left;
 	width: 24.99%;
-	min-height: 470px;
+	height: 470px;
 	display: flex;
 	display: -webkit-flex;
 	align-items: center;
@@ -1211,6 +1211,18 @@ section.ui-section.ocho{
 	position: relative;
 	z-index: 5;
 	display: none;
+}
+
+.flexslider-circulos > .slides {
+	height: 400px;
+	position: relative;
+}
+
+.flexslider-circulos > .slides > li{
+	height: 400px;
+	position: absolute;
+	top:0;
+	left:0;	
 }
 
 .ui-box-forma-uno-banner{
