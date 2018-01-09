@@ -307,7 +307,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $( ".ui-btn-responsive" ).click(function() {
-      $( "#menu-responsive" ).toggle("slow");
+      $( "#menu-responsive" ).slideToggle("slow");
     });
 });
 
@@ -389,5 +389,14 @@ $(document).ready(function() {
  $(document).ready(function() {
      setTimeout(function() {
          $(".ui-loading-xelamec").fadeOut();
-     },5000);
+     },6000);
  });
+
+/********************************
+ *       modalEfectividad       *
+ ********************************/
+$("#btn-modal-efectividad-tool").hover(function(){
+    $("#mensaje-tool").show();
+}, function(){
+    $("#mensaje-tool").hide();
+});

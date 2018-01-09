@@ -805,30 +805,16 @@ section.ui-section.ocho{
 
 .ui-nav-xelamec > ul li{
 	display: inline-block;
-	vertical-align: top;
-	margin-right: 12px;
+	vertical-align: top;	
 	position: relative;
-}
-
-.ui-nav-xelamec > ul li:after{
-	content: '';
-	position: absolute;
-	right:-8px;
-	top:0;
-	width: 1px;
-	height: 100%;
-	background-color: rgba(0,0,0,0.2);
-}
-
-.ui-nav-xelamec > ul li:last-child{
-	margin-right: 0px;
+	border-right: 1px solid rgba(0,0,0,0.2);
 }
 
 .ui-nav-xelamec > ul li a{
 	text-decoration: none;
 	color: rgba(0,0,0,0.7);
 	line-height: 35px;
-	padding: 4px 5px;
+	padding: 4px 8px;
 	display: block;
 	font-size: 14px;
 	font-family: 'HelveticaNeveLT Std Med Cn';
@@ -1519,7 +1505,7 @@ section.ui-section.ocho{
 .section .ui-box-proteccion h2{
 	display: inline-block;
 	vertical-align: top;
-	font-size: 90px;
+	font-size: 89px;
 	line-height: 70px;
 	padding: 10px 20px;
 	font-weight: normal;
@@ -3202,6 +3188,7 @@ section.ui-section.ocho{
 	max-width: 520px;
 	display: inline-block;
 	vertical-align: top;
+	position: relative;
 }
 
 .ui-cuadro-tridimencional{
@@ -3616,8 +3603,7 @@ section.ui-section.ocho{
 	top:95px;
 	left:0;
 	width: 52px;
-	height: 12px;
-	/*background-color: #FCB040;*/
+	height: 12px;	
 }
 
 .cuadro-dos-efectividad > .ui-box-uno:after{
@@ -3917,6 +3903,38 @@ section.ui-section.ocho{
     	-o-transform:scale(1.2,1.2);
     	transform:scale(1.2,1.2);
     }
+}
+
+/****************************************
+ *         toolTip efectividad          *
+ ****************************************/
+.ui-box-tool-efectividad{
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	cursor: pointer;
+	font-weight: bold;	
+	padding: 1px 3px;
+	border:1px solid #fff;
+	background-color: rgba(255,255,255,.7);
+}
+
+.ui-box-tool-tip-efectividad{
+	position: absolute;
+	bottom:35px;
+	left:0;	
+	width: 100%;
+	padding: 15px;
+	border:1px solid #fff;
+	background-color: rgba(255,255,255,.9);
+	display: none;
+}
+
+.ui-box-tool-tip-efectividad i{
+	font-size: 9px;
+	position: relative;
+	top:-4px;
+	left:2px;
 }
 
 /**************************************
