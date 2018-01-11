@@ -4790,32 +4790,38 @@ textarea{
 	display: block;
 }
 
-.ui-lista-footer{
+.ui-lista-footer,
+.ui-lista-footer-dos{
 	max-width: 180px;
 }
 
-.ui-lista-footer li{
+.ui-lista-footer li,
+.ui-lista-footer-dos li{
 	padding: 5px 0 5px 12px;
 	border-bottom: 1px solid #fff;
 	position: relative;
 }
 
-.ui-lista-footer li:last-child{
+.ui-lista-footer li:last-child,
+.ui-lista-footer-dos li:last-child{
 	border-bottom: none;
 }
 
-.ui-lista-footer li a {
+.ui-lista-footer li a,
+.ui-lista-footer-dos li a  {
 	text-decoration: none;
 	color: #fff;
 }
 
-.ui-lista-footer li a > i{
+.ui-lista-footer li a > i,
+.ui-lista-footer-dos li a > i{
 	position: absolute;
 	top:9px;
-	left:0;
+	left:0;	
 }
 
-.ui-lista-footer li a > span i{
+.ui-lista-footer li a > span i,
+.ui-lista-footer-dos li a > span i{
 	position: relative;
 	top:-3px;
 	left:-3px;
